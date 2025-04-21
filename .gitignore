@@ -1,0 +1,20 @@
+# Ignore virtual environment
+myenv/
+
+# Ignore .wav audio files in root or subdirectories
+*.wav
+
+# Ignore PNG files in the root or subdirectories
+*.png
+
+# Ignore the requirements.in file
+requirements.in
+
+# Ignore Jupyter notebook file
+main.ipynb
+
+# Ignore __pycache__ directory
+__pycache__/
+
+# Ignore generate_audio.py file
+generate_audio.py
