@@ -1,7 +1,18 @@
+# Ignore virtual environment
+myenv/
+
+# Ignore Python cache
 __pycache__/
+*.pyc
+
+# Ignore specific files
 generate_audio.py
 requirements.in
-myenv/
+main.ipynb
+
+# Ignore generated media
 *.png
 *.wav
-*.pyc
+
+# Ignore any audio output folders
+audio_samples/
